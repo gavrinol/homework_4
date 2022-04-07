@@ -54,6 +54,7 @@ public class Main {
         System.out.println();
 
         // Задание 4
+
         for (int i = 0; i < apples.length; i++) {
             if (apples[i] % 2 == 1) {
                 apples[i] = i + 2;
