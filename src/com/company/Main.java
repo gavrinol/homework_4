@@ -56,6 +56,7 @@ public class Main {
         // Задание 4
 
         for (int i = 0; i < apples.length; i++) {
+            apples [i] = i + 1;
             if (apples[i] % 2 == 1) {
                 apples[i] = i + 2;
             }
